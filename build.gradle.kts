@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("com.michael-bull.kotlin-result:kotlin-result:1.1.16")
 }
 
 tasks.test {
