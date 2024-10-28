@@ -15,8 +15,8 @@ class Lion: Animal() {
         return "miau"
     }
 }
+
 fun main() {
-    // classes are final by default
     val list = listOf(Animal(), Lion())
     list.forEach { println(it.makeSound()) }
 }
