@@ -11,8 +11,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
-    implementation("com.michael-bull.kotlin-result:kotlin-result:1.1.16")
+    //testImplementation(kotlin("test"))
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.11.3")
+    testImplementation("io.kotest:kotest-runner-junit5-jvm:5.9.1")
+    implementation("com.michael-bull.kotlin-result:kotlin-result:2.0.0")
 }
 
 tasks.test {
