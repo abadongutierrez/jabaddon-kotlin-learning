@@ -2,6 +2,8 @@ package com.jabaddon.learning.kotlin.lambdas
 
 fun main() {
     localReturn(listOf("1", "2", "3", "4", "5", "6"))
+    println("------")
+    println("------")
     localReturnWithLabel(listOf("1", "2", "3", "4", "5", "6"))
 }
 
